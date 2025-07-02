@@ -1,25 +1,26 @@
 {
 	"compilerOptions": {
-		"outDir": "./dist",
-		"rootDir": "./src",
-		"module": "nodenext",
-		"moduleDetection": "force",
-		"target": "es2022",
-
-		// other best practice configs
-		"moduleResolution": "nodenext",
-		"strict": true,
-		"noImplicitAny": false,
-		"removeComments": false,
-		"emitDecoratorMetadata": true,
-		"composite": true,
-		"experimentalDecorators": true,
-		"strictPropertyInitialization": false,
-		"resolveJsonModule": true,
-		"sourceMap": true,
-		"isolatedModules": false,
-		"declaration": true
+	  "outDir": "./dist",
+	  "rootDir": "./src",
+	  "target": "es2022",
+	  "module": "nodenext",
+	  "moduleResolution": "nodenext",
+	  "moduleDetection": "force",
+  
+	  "declaration": true,
+	  "sourceMap": true,
+	  "emitDecoratorMetadata": true,
+	  "experimentalDecorators": true,
+	  "composite": true,
+	  "strict": true,
+	  "strictPropertyInitialization": false,
+	  "noImplicitAny": false,
+	  "removeComments": false,
+	  "resolveJsonModule": true,
+	  "esModuleInterop": true,
+	  "allowSyntheticDefaultImports": true
 	},
-	"exclude": ["node_modules", "**/__tests__"],
-	"include": ["./src"]
-}
+	"include": ["./src"],
+	"exclude": ["node_modules", "**/__tests__"]
+  }
+  

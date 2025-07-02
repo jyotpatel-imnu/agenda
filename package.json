@@ -1,10 +1,16 @@
 {
-  "name": "@whisthub/agenda",
+  "name": "@jyotpatel-imnu/agenda",
   "version": "0.0.0",
   "type": "module",
   "description": "Light weight job scheduler for Node.js",
-  "exports": "./dist/index.js",
+"main": "./dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+  ".": {
+    "import": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  }
+},
   "publishConfig": {
     "access": "public"
   },
